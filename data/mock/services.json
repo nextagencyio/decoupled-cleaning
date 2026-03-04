@@ -1,0 +1,163 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-standard",
+          "title": "Standard Cleaning",
+          "path": "/services/standard-cleaning",
+          "body": {
+            "processed": "<p>Our standard cleaning service covers everything you need to maintain a clean, comfortable home. Our trained teams follow a detailed checklist to ensure consistent results every visit.</p><h2>Room-by-Room Coverage</h2><p>We clean all rooms including bedrooms, living areas, kitchens, and bathrooms. Each visit includes dusting all surfaces, vacuuming and mopping floors, cleaning and sanitizing bathrooms, and tidying the kitchen.</p><h2>Your Satisfaction Guaranteed</h2><p>If you're not happy with any aspect of our cleaning, we'll return within 24 hours to make it right at no additional charge.</p>",
+            "summary": "Our standard cleaning service covers everything you need to maintain a clean, comfortable home. Our trained teams follow a detailed checklist to ensure consistent results every visit.Room-by-Room Cove"
+          },
+          "summary": "Comprehensive home cleaning covering all rooms with a detailed checklist.",
+          "startingPrice": "$129",
+          "frequency": [
+            "Weekly",
+            "Bi-weekly",
+            "Monthly",
+            "One-time"
+          ],
+          "includes": [
+            "Dusting all surfaces",
+            "Vacuuming and mopping",
+            "Bathroom sanitizing",
+            "Kitchen cleaning",
+            "Trash removal",
+            "Bed making"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+            "alt": "Clean and organized living room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-deep",
+          "title": "Deep Cleaning",
+          "path": "/services/deep-cleaning",
+          "body": {
+            "processed": "<p>Our deep cleaning service goes beyond the surface to tackle built-up grime, forgotten corners, and areas that don't get attention during regular cleaning. Perfect for a first-time cleaning, seasonal refresh, or before hosting guests.</p><h2>What Makes It Deep</h2><p>We clean inside appliances, behind furniture, scrub grout, clean baseboards, wipe down cabinet fronts, and detail areas that accumulate dust and buildup over time. This service typically takes twice as long as a standard cleaning.</p>",
+            "summary": "Our deep cleaning service goes beyond the surface to tackle built-up grime, forgotten corners, and areas that don't get attention during regular cleaning. Perfect for a first-time cleaning, seasonal r"
+          },
+          "summary": "Intensive top-to-bottom cleaning for a fresh start or seasonal refresh.",
+          "startingPrice": "$249",
+          "frequency": [
+            "One-time",
+            "Quarterly",
+            "Semi-annually"
+          ],
+          "includes": [
+            "Everything in standard cleaning",
+            "Inside oven and microwave",
+            "Inside refrigerator",
+            "Baseboard cleaning",
+            "Window sill and track cleaning",
+            "Light fixture dusting",
+            "Cabinet front wiping",
+            "Behind furniture cleaning"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+            "alt": "Deep cleaning a sparkling kitchen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-move",
+          "title": "Move-In / Move-Out Cleaning",
+          "path": "/services/move-in-move-out",
+          "body": {
+            "processed": "<p>Starting fresh in a new home or leaving your old one spotless for the next owners? Our move-in/move-out cleaning service ensures every surface is pristine. We clean empty homes from top to bottom, including areas that are impossible to reach when furnished.</p><h2>Ideal For</h2><ul><li>Renters moving out and wanting their security deposit back</li><li>New homeowners wanting a fresh start</li><li>Landlords preparing a property for new tenants</li><li>Real estate agents staging homes for sale</li></ul>",
+            "summary": "Starting fresh in a new home or leaving your old one spotless for the next owners? Our move-in/move-out cleaning service ensures every surface is pristine. We clean empty homes from top to bottom, inc"
+          },
+          "summary": "Complete cleaning of empty or soon-to-be-empty homes for seamless transitions.",
+          "startingPrice": "$299",
+          "frequency": [
+            "One-time"
+          ],
+          "includes": [
+            "All deep cleaning items",
+            "Inside all closets and cabinets",
+            "Garage sweep",
+            "Interior window cleaning",
+            "Wall spot cleaning",
+            "Light switch and outlet plate cleaning"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Sparkling clean empty room ready for move-in",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Pristine Home Cleaning",
+          "path": "/homepage",
+          "heroTitle": "A Cleaner Home, A Happier Life",
+          "heroSubtitle": "Professional Cleaning Services You Can Count On",
+          "heroDescription": {
+            "processed": "<p>Pristine Home Cleaning delivers thorough, reliable cleaning services tailored to your schedule and preferences. Our bonded and insured teams use eco-friendly products and proven methods to make your home sparkle.</p>",
+            "summary": "Pristine Home Cleaning delivers thorough, reliable cleaning services tailored to your schedule and preferences. Our bonded and insured teams use eco-friendly products and proven methods to make your h"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-homes",
+              "title": "",
+              "number": "8,500+",
+              "label": "Homes Cleaned"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-satisfaction",
+              "title": "",
+              "number": "99.2%",
+              "label": "Satisfaction Rate"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-team",
+              "title": "",
+              "number": "45+",
+              "label": "Trained Cleaners"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "15",
+              "label": "Years of Service"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Get Your Free Cleaning Estimate",
+          "ctaDescription": {
+            "processed": "<p>Tell us about your home and we'll provide a customized quote within the hour. No hidden fees, no contracts, and 100% satisfaction guaranteed on every clean.</p>",
+            "summary": "Tell us about your home and we'll provide a customized quote within the hour. No hidden fees, no contracts, and 100% satisfaction guaranteed on every clean."
+          },
+          "ctaPrimary": "Get a Quote",
+          "ctaSecondary": "View Pricing"
+        }
+      ]
+    }
+  }
+}

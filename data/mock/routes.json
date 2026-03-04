@@ -1,0 +1,577 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Pristine Home Cleaning",
+          "path": "/homepage",
+          "heroTitle": "A Cleaner Home, A Happier Life",
+          "heroSubtitle": "Professional Cleaning Services You Can Count On",
+          "heroDescription": {
+            "processed": "<p>Pristine Home Cleaning delivers thorough, reliable cleaning services tailored to your schedule and preferences. Our bonded and insured teams use eco-friendly products and proven methods to make your home sparkle.</p>",
+            "summary": "Pristine Home Cleaning delivers thorough, reliable cleaning services tailored to your schedule and preferences. Our bonded and insured teams use eco-friendly products and proven methods to make your h"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-homes",
+              "title": "",
+              "number": "8,500+",
+              "label": "Homes Cleaned"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-satisfaction",
+              "title": "",
+              "number": "99.2%",
+              "label": "Satisfaction Rate"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-team",
+              "title": "",
+              "number": "45+",
+              "label": "Trained Cleaners"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-years",
+              "title": "",
+              "number": "15",
+              "label": "Years of Service"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Get Your Free Cleaning Estimate",
+          "ctaDescription": {
+            "processed": "<p>Tell us about your home and we'll provide a customized quote within the hour. No hidden fees, no contracts, and 100% satisfaction guaranteed on every clean.</p>",
+            "summary": "Tell us about your home and we'll provide a customized quote within the hour. No hidden fees, no contracts, and 100% satisfaction guaranteed on every clean."
+          },
+          "ctaPrimary": "Get a Quote",
+          "ctaSecondary": "View Pricing"
+        }
+      }
+    }
+  },
+  "/services/standard-cleaning": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-standard",
+          "title": "Standard Cleaning",
+          "path": "/services/standard-cleaning",
+          "body": {
+            "processed": "<p>Our standard cleaning service covers everything you need to maintain a clean, comfortable home. Our trained teams follow a detailed checklist to ensure consistent results every visit.</p><h2>Room-by-Room Coverage</h2><p>We clean all rooms including bedrooms, living areas, kitchens, and bathrooms. Each visit includes dusting all surfaces, vacuuming and mopping floors, cleaning and sanitizing bathrooms, and tidying the kitchen.</p><h2>Your Satisfaction Guaranteed</h2><p>If you're not happy with any aspect of our cleaning, we'll return within 24 hours to make it right at no additional charge.</p>",
+            "summary": "Our standard cleaning service covers everything you need to maintain a clean, comfortable home. Our trained teams follow a detailed checklist to ensure consistent results every visit.Room-by-Room Cove"
+          },
+          "summary": "Comprehensive home cleaning covering all rooms with a detailed checklist.",
+          "startingPrice": "$129",
+          "frequency": [
+            "Weekly",
+            "Bi-weekly",
+            "Monthly",
+            "One-time"
+          ],
+          "includes": [
+            "Dusting all surfaces",
+            "Vacuuming and mopping",
+            "Bathroom sanitizing",
+            "Kitchen cleaning",
+            "Trash removal",
+            "Bed making"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+            "alt": "Clean and organized living room",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/deep-cleaning": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-deep",
+          "title": "Deep Cleaning",
+          "path": "/services/deep-cleaning",
+          "body": {
+            "processed": "<p>Our deep cleaning service goes beyond the surface to tackle built-up grime, forgotten corners, and areas that don't get attention during regular cleaning. Perfect for a first-time cleaning, seasonal refresh, or before hosting guests.</p><h2>What Makes It Deep</h2><p>We clean inside appliances, behind furniture, scrub grout, clean baseboards, wipe down cabinet fronts, and detail areas that accumulate dust and buildup over time. This service typically takes twice as long as a standard cleaning.</p>",
+            "summary": "Our deep cleaning service goes beyond the surface to tackle built-up grime, forgotten corners, and areas that don't get attention during regular cleaning. Perfect for a first-time cleaning, seasonal r"
+          },
+          "summary": "Intensive top-to-bottom cleaning for a fresh start or seasonal refresh.",
+          "startingPrice": "$249",
+          "frequency": [
+            "One-time",
+            "Quarterly",
+            "Semi-annually"
+          ],
+          "includes": [
+            "Everything in standard cleaning",
+            "Inside oven and microwave",
+            "Inside refrigerator",
+            "Baseboard cleaning",
+            "Window sill and track cleaning",
+            "Light fixture dusting",
+            "Cabinet front wiping",
+            "Behind furniture cleaning"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+            "alt": "Deep cleaning a sparkling kitchen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/move-in-move-out": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-move",
+          "title": "Move-In / Move-Out Cleaning",
+          "path": "/services/move-in-move-out",
+          "body": {
+            "processed": "<p>Starting fresh in a new home or leaving your old one spotless for the next owners? Our move-in/move-out cleaning service ensures every surface is pristine. We clean empty homes from top to bottom, including areas that are impossible to reach when furnished.</p><h2>Ideal For</h2><ul><li>Renters moving out and wanting their security deposit back</li><li>New homeowners wanting a fresh start</li><li>Landlords preparing a property for new tenants</li><li>Real estate agents staging homes for sale</li></ul>",
+            "summary": "Starting fresh in a new home or leaving your old one spotless for the next owners? Our move-in/move-out cleaning service ensures every surface is pristine. We clean empty homes from top to bottom, inc"
+          },
+          "summary": "Complete cleaning of empty or soon-to-be-empty homes for seamless transitions.",
+          "startingPrice": "$299",
+          "frequency": [
+            "One-time"
+          ],
+          "includes": [
+            "All deep cleaning items",
+            "Inside all closets and cabinets",
+            "Garage sweep",
+            "Interior window cleaning",
+            "Wall spot cleaning",
+            "Light switch and outlet plate cleaning"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+            "alt": "Sparkling clean empty room ready for move-in",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/pricing/basic-plan": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePricingPlan",
+          "id": "plan-basic",
+          "title": "Basic Plan",
+          "path": "/pricing/basic-plan",
+          "body": {
+            "processed": "<p>Our most affordable recurring cleaning plan, perfect for maintaining a tidy home between deeper cleans. Ideal for smaller homes and apartments where a lighter touch is all you need.</p>",
+            "summary": "Our most affordable recurring cleaning plan, perfect for maintaining a tidy home between deeper cleans. Ideal for smaller homes and apartments where a lighter touch is all you need."
+          },
+          "price": "$99/visit",
+          "billingPeriod": "Bi-weekly",
+          "planFeatures": [
+            "Standard cleaning checklist",
+            "Kitchen and bathroom focus",
+            "Vacuuming all floors",
+            "Dusting accessible surfaces",
+            "Trash removal",
+            "Supply of eco-friendly products"
+          ],
+          "isPopular": false,
+          "homeSize": "Up to 1,200 sq ft",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+            "alt": "Clean and tidy apartment living space",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/pricing/premium-plan": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePricingPlan",
+          "id": "plan-premium",
+          "title": "Premium Plan",
+          "path": "/pricing/premium-plan",
+          "body": {
+            "processed": "<p>Our most popular plan balances thoroughness with value. You get everything in the basic plan plus additional attention to detail that keeps your home consistently spotless. Includes priority scheduling and our satisfaction guarantee.</p>",
+            "summary": "Our most popular plan balances thoroughness with value. You get everything in the basic plan plus additional attention to detail that keeps your home consistently spotless. Includes priority schedulin"
+          },
+          "price": "$179/visit",
+          "billingPeriod": "Weekly or Bi-weekly",
+          "planFeatures": [
+            "Full standard cleaning checklist",
+            "Inside microwave and oven exterior",
+            "Baseboard spot cleaning",
+            "Mirror and glass polishing",
+            "Bed making and linen change",
+            "Priority scheduling",
+            "Same-team consistency guarantee"
+          ],
+          "isPopular": true,
+          "homeSize": "1,200 - 2,500 sq ft",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+            "alt": "Beautifully maintained premium home interior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/pricing/luxury-plan": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePricingPlan",
+          "id": "plan-luxury",
+          "title": "Luxury Plan",
+          "path": "/pricing/luxury-plan",
+          "body": {
+            "processed": "<p>The ultimate cleaning experience for larger homes and discerning clients. Our Luxury Plan includes everything in the Premium tier plus specialized services that keep every corner of your home in pristine condition. Dedicated team assigned to your home for complete consistency.</p>",
+            "summary": "The ultimate cleaning experience for larger homes and discerning clients. Our Luxury Plan includes everything in the Premium tier plus specialized services that keep every corner of your home in prist"
+          },
+          "price": "$329/visit",
+          "billingPeriod": "Weekly",
+          "planFeatures": [
+            "Full premium cleaning checklist",
+            "Interior window cleaning",
+            "Chandelier and light fixture detailing",
+            "Organized pantry and closet tidying",
+            "Laundry folding service",
+            "Refrigerator interior quarterly",
+            "Dedicated cleaning team",
+            "Flexible rescheduling"
+          ],
+          "isPopular": false,
+          "homeSize": "2,500+ sq ft",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+            "alt": "Luxurious home interior with immaculate finishes",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/testimonials/parker-family": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-parker",
+          "title": "Finally Found Our Cleaning Team",
+          "path": "/testimonials/parker-family",
+          "body": {
+            "processed": "<p>We've tried three different cleaning services over the years, and Pristine is the first one we've stuck with. They're consistent, thorough, and genuinely trustworthy. Coming home to a clean house every other Tuesday is the highlight of my week. The same team comes every time, which makes such a difference.</p>",
+            "summary": "We've tried three different cleaning services over the years, and Pristine is the first one we've stuck with. They're consistent, thorough, and genuinely trustworthy. Coming home to a clean house ever"
+          },
+          "clientName": "Amanda Parker",
+          "clientLocation": "Austin, TX",
+          "rating": 5,
+          "serviceType": "Premium Plan - Bi-weekly",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Amanda Parker",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/testimonials/garcia-review": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-garcia",
+          "title": "Move-Out Cleaning Saved Our Deposit",
+          "path": "/testimonials/garcia-review",
+          "body": {
+            "processed": "<p>We were moving out of our rental after four years and were worried about the condition. Pristine did a move-out cleaning that was beyond thorough. Our landlord said it was the cleanest the apartment had been since it was built. Got our full deposit back thanks to them!</p>",
+            "summary": "We were moving out of our rental after four years and were worried about the condition. Pristine did a move-out cleaning that was beyond thorough. Our landlord said it was the cleanest the apartment h"
+          },
+          "clientName": "Carlos Garcia",
+          "clientLocation": "Round Rock, TX",
+          "rating": 5,
+          "serviceType": "Move-Out Cleaning",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Carlos Garcia",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/testimonials/wong-family": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-wong",
+          "title": "Perfect for Our Busy Family",
+          "path": "/testimonials/wong-family",
+          "body": {
+            "processed": "<p>With three kids and two dogs, our house is a constant mess. Pristine's weekly service keeps us sane. They use eco-friendly products which is important to us with young children crawling around. The online booking and communication is super easy too. Wouldn't change a thing.</p>",
+            "summary": "With three kids and two dogs, our house is a constant mess. Pristine's weekly service keeps us sane. They use eco-friendly products which is important to us with young children crawling around. The on"
+          },
+          "clientName": "Jessica Wong",
+          "clientLocation": "Cedar Park, TX",
+          "rating": 5,
+          "serviceType": "Luxury Plan - Weekly",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80",
+            "alt": "Jessica Wong",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "about-page",
+          "title": "About Pristine Home Cleaning",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Pristine Home Cleaning was founded in 2011 by Maria Vasquez, a single mom who saw an opportunity to build a cleaning business that treated both clients and employees with respect. Today, our team of 45+ cleaning professionals serves hundreds of homes across the greater Austin area.</p><h2>Our Difference</h2><p>Every Pristine cleaner goes through a rigorous background check, 40 hours of hands-on training, and ongoing quality evaluations. We use exclusively eco-friendly, non-toxic cleaning products that are safe for children, pets, and the environment.</p><h2>Community Commitment</h2><p>We donate cleaning services to families in need through our partnership with local shelters and social services organizations. Because everyone deserves to come home to a clean space.</p>",
+            "summary": "Pristine Home Cleaning was founded in 2011 by Maria Vasquez, a single mom who saw an opportunity to build a cleaning business that treated both clients and employees with respect. Today, our team of 4"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "contact-page",
+          "title": "Contact Us",
+          "path": "/contact",
+          "body": {
+            "processed": "<p>Ready for a cleaner home? Request a quote online or give us a call. We respond to all inquiries within one hour during business hours.</p><h2>Office Hours</h2><p>Monday - Friday: 8:00 AM - 6:00 PM<br/>Saturday: 9:00 AM - 2:00 PM<br/>Sunday: Closed</p><h2>Service Area</h2><p>We serve Austin, Round Rock, Cedar Park, Georgetown, Pflugerville, and surrounding communities within a 30-mile radius of downtown Austin.</p><h2>Get in Touch</h2><p>Phone: (512) 555-0294<br/>Email: hello@pristinehomecleaning.com</p>",
+            "summary": "Ready for a cleaner home? Request a quote online or give us a call. We respond to all inquiries within one hour during business hours.Office HoursMonday - Friday: 8:00 AM - 6:00 PMSaturday: 9:00 AM - "
+          }
+        }
+      }
+    }
+  }
+}

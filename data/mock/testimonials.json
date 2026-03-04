@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeTestimonials": {
+      "__typename": "NodeTestimonialConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-parker",
+          "title": "Finally Found Our Cleaning Team",
+          "path": "/testimonials/parker-family",
+          "body": {
+            "processed": "<p>We've tried three different cleaning services over the years, and Pristine is the first one we've stuck with. They're consistent, thorough, and genuinely trustworthy. Coming home to a clean house every other Tuesday is the highlight of my week. The same team comes every time, which makes such a difference.</p>",
+            "summary": "We've tried three different cleaning services over the years, and Pristine is the first one we've stuck with. They're consistent, thorough, and genuinely trustworthy. Coming home to a clean house ever"
+          },
+          "clientName": "Amanda Parker",
+          "clientLocation": "Austin, TX",
+          "rating": 5,
+          "serviceType": "Premium Plan - Bi-weekly",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Amanda Parker",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-garcia",
+          "title": "Move-Out Cleaning Saved Our Deposit",
+          "path": "/testimonials/garcia-review",
+          "body": {
+            "processed": "<p>We were moving out of our rental after four years and were worried about the condition. Pristine did a move-out cleaning that was beyond thorough. Our landlord said it was the cleanest the apartment had been since it was built. Got our full deposit back thanks to them!</p>",
+            "summary": "We were moving out of our rental after four years and were worried about the condition. Pristine did a move-out cleaning that was beyond thorough. Our landlord said it was the cleanest the apartment h"
+          },
+          "clientName": "Carlos Garcia",
+          "clientLocation": "Round Rock, TX",
+          "rating": 5,
+          "serviceType": "Move-Out Cleaning",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Carlos Garcia",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTestimonial",
+          "id": "testimonial-wong",
+          "title": "Perfect for Our Busy Family",
+          "path": "/testimonials/wong-family",
+          "body": {
+            "processed": "<p>With three kids and two dogs, our house is a constant mess. Pristine's weekly service keeps us sane. They use eco-friendly products which is important to us with young children crawling around. The online booking and communication is super easy too. Wouldn't change a thing.</p>",
+            "summary": "With three kids and two dogs, our house is a constant mess. Pristine's weekly service keeps us sane. They use eco-friendly products which is important to us with young children crawling around. The on"
+          },
+          "clientName": "Jessica Wong",
+          "clientLocation": "Cedar Park, TX",
+          "rating": 5,
+          "serviceType": "Luxury Plan - Weekly",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80",
+            "alt": "Jessica Wong",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
