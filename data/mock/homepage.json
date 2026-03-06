@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-homes",
               "title": "",
-              "number": "8,500+",
+              "number": "8,500+", "value": "8,500+",
               "label": "Homes Cleaned"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-satisfaction",
               "title": "",
-              "number": "99.2%",
+              "number": "99.2%", "value": "99.2%",
               "label": "Satisfaction Rate"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-team",
               "title": "",
-              "number": "45+",
+              "number": "45+", "value": "45+",
               "label": "Trained Cleaners"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-years",
               "title": "",
-              "number": "15",
+              "number": "15", "value": "15",
               "label": "Years of Service"
             }
           ],
