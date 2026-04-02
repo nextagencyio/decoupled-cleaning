@@ -34,7 +34,36 @@ export function createTypedClient(client: DecoupledClient): TypedClient {
         query ($path: String!) {
           route(path: $path) {
             ... on RouteInternal {
-              entity { ... on NodePage { __typename id title path body { processed } } }
+              entity {
+                ... on NodePage { __typename id title path body { processed } }
+                ... on NodeHomepage {
+                  __typename id title path
+                  heroTitle heroSubtitle
+                  heroDescription { processed }
+                  statsItems { ... on ParagraphStatItem { id number label } }
+                  featuredItemsTitle
+                  ctaTitle ctaDescription { processed }
+                  ctaPrimary ctaSecondary
+                }
+                ... on NodeService {
+                  __typename id title path
+                  body { processed summary }
+                  summary startingPrice frequency includes
+                  image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+                }
+                ... on NodePricingPlan {
+                  __typename id title path
+                  body { processed summary }
+                  price billingPeriod planFeatures isPopular homeSize
+                  image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+                }
+                ... on NodeTestimonial {
+                  __typename id title path
+                  body { processed summary }
+                  clientName clientLocation rating serviceType
+                  photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+                }
+              }
             }
           }
         }

@@ -63,15 +63,20 @@ export interface DrupalHomepage extends DrupalNode {
   heroDescription?: {
     processed: string
   }
-  featuresTitle?: string
-  featuresSubtitle?: string
-  featuresItems?: DrupalFeature[]
+  statsItems?: DrupalStatItem[]
+  featuredItemsTitle?: string
   ctaTitle?: string
   ctaDescription?: {
     processed: string
   }
   ctaPrimary?: string
   ctaSecondary?: string
+}
+
+export interface DrupalStatItem {
+  id: string
+  number?: string
+  label?: string
 }
 
 export interface DrupalFeature {
@@ -98,8 +103,8 @@ export interface DrupalService {
   body?: { processed: string; summary?: string }
   summary?: string
   startingPrice?: string
-  frequency?: string
-  includes?: string
+  frequency?: string[]
+  includes?: string[]
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
 
@@ -116,8 +121,8 @@ export interface DrupalPricingPlan {
   body?: { processed: string; summary?: string }
   price?: string
   billingPeriod?: string
-  planFeatures?: string
-  isPopular?: string
+  planFeatures?: string[]
+  isPopular?: boolean
   homeSize?: string
   image?: { url: string; alt: string; width?: number; height?: number; variations?: { name: string; url: string; width: number; height: number }[] }
 }
