@@ -24,7 +24,7 @@ interface PricingPlanByPathData {
 async function getPricingPlan(path: string): Promise<DrupalPricingPlan | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_PRICING_PLAN_BY_PATH, { path })
+    const data = await client.raw(GET_PRICING_PLAN_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching pricing plan:', error)

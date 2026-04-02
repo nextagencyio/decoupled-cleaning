@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getPricingPlans() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_PRICING_PLANS, { first: 50 })
+    const data = await client.raw(GET_PRICING_PLANS, { first: 50 })
     return data?.nodePricingPlans?.nodes || []
   } catch (error) {
     console.error('Error fetching pricing plans:', error)
@@ -58,7 +58,7 @@ export default async function PricingPlansPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <PricingPlanCard key={item.id} item={item} />
               ))}
             </div>
