@@ -1,5 +1,4 @@
 import './globals.css'
-import ApolloProvider from './components/providers/ApolloProvider'
 import { DemoModeBanner } from './components/DemoModeBanner'
 import { Viewport, type Metadata } from 'next'
 import { Quicksand, Open_Sans } from 'next/font/google'
@@ -30,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${quicksand.variable} ${openSans.variable}`}>
       <body className="font-sans bg-primary-50 text-gray-900 antialiased">
         <DemoModeBanner />
-        <ApolloProvider>{children}</ApolloProvider>
+        {children}
       </body>
     </html>
   )
